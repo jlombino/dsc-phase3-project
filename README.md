@@ -21,7 +21,7 @@ SyriaTel should be able to use this model to target all customers who will churn
 
 <h1>Data Understanding</h1>
 
-The following <a href=https://www.kaggle.com/becksddf/churn-in-telecoms-dataset>dataset</a> was provided by SyriaTel for modeling. It contains information on the account usage and history of 3300 SyriaTel customers in the United States. The target column, churn shows whether a given customer left SyriaTel during an unspecified time frame. The dataset can be found in this repositiory at <a href=./data/s_tel.csv>./data/s_tel.csv</a>.
+The following <a href=https://www.kaggle.com/becksddf/churn-in-telecoms-dataset>dataset</a> was provided by SyriaTel for modeling. It contains information on the account usage and history of 3300 SyriaTel customers in the United States. The target column, churn shows whether a given customer left SyriaTel during a one-month time frame. The dataset can be found in this repositiory at <a href=./data/s_tel.csv>./data/s_tel.csv</a>.
 
 Some of the features present in the data set are:
 <ul>      
