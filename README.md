@@ -17,7 +17,7 @@ Provided with data on customers' accounts, the model should be helpful in answer
 <li>Which account features best predict whether a customer will soon churn?
 </ol>
 
-SyriaTel should be able to use this model to target all customers who will churn with discounted rates while avoiding discounting rates for customers who will not. The primary metric for the model will be <b>Recall Score</b> because it is most important that the model correctly identifies as many churning customers as possible. Precision Score will be a secondary focus to avoid giving out unnecessary discounts to customers who will not churn.
+SyriaTel should be able to use this model to target all customers who will churn with discounted rates while avoiding discounting rates for customers who will not. The primary metric for the model will be Recall Score because it is most important that the model correctly identifies as many churning customers as possible. Precision Score will be a secondary focus to avoid giving out unnecessary discounts to customers who will not churn. Therefore an <b>F-beta</b> score weighted to favor recall will be the optimization target for models.
 
 <h1>Data Understanding</h1>
 
@@ -109,7 +109,7 @@ Total Charge is the sum of the total day, eve, night, and international charge f
 
 <h1>Preliminary Modeling</h1>
 
-The primary metric used to evaluate models for this project is <b>Recall Score</b>. Precision score is also used as a secondary metric. Class weights and SMOTE were used to correct for the ~6:1 class imbalance where appropriate.
+The primary metric used to evaluate models for this project is <b>F-beta Score</b> weighted for recall. Class weights and SMOTE were used to correct for the ~6:1 class imbalance where appropriate.
 
 The following preliminary models were used to attempt to classify customers into churn and non-churn groups:
 <ol>
