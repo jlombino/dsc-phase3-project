@@ -199,7 +199,6 @@ SyriaTel can use this model to offer discounts to customers who are likely to ch
 
 ```
 ├── README.md                        <- The top-level README you are currently reading
-├── Description.md                   <- Project description and requirements provided by upstream
 ├── Final_Notebook.ipynb             <- Jupyter notebook with my full analysis
 ├── Final_Notebook.pdf               <- PDF version of project Jupyter notebook
 ├── slides.pdf                       <- PDF version of project presentation
